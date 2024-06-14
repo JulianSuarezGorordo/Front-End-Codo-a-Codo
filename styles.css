@@ -264,6 +264,10 @@ input[type="submit"]:hover{
   transition: 5s;
 }
 
+.registro a{
+  text-decoration: none;
+}
+
 .registrarse {
   margin: 15px 0 ;
   text-align: center;
