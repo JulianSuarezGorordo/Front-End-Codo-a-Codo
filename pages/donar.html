@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagenes/img0.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <!-- Link de bootstrap nav-->   
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <!-- Link de CSS-->
+      <link rel="stylesheet" href="../styles.css">
+  
+    <title>Donar</title>
+    <style>
+        ul, ol {
+            list-style: none;
+               }
+       
+       .navbar-nav li a:hover {
+        background-color:silver;
+       }
+       .navbar-nav > li {
+        float: left
+       }
+
+       .navbar-nav li ul {
+        display:none;
+        position: absolute;
+        min-height: 140px;
+       }
+       .navbar-nav li:hover > ul {
+        display:block
+       }
+       .card{
+        display: flex;
+        justify-content: center;
+       }
+        </style>
+
+</head>
+<body>
+    <header class="conteiner-fluid encabezadoBS">        
+        <nav class="navbar navbar-expand-lg justify-content-center">
+            <div class="row justify-content-center m-0">
+                        
+                    <a class="text-center p-0" href="../index.html">
+                    <img  src= "../imagenes/img0.jpeg" alt="Imagen de patita" width="100px"> </a>
+                    <button class="navbar-toggler col-2" type="button" 
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"   aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link active  text-center" aria-current="page" href="
+                                ../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="./adopta.html">Adoptá</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="./tienda.html">Tienda</a>
+                            </li>      
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="./contacto.html">Contacto</a>
+                            </li>            
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+                <div class="inicio_sesion">
+                    <div class="registro"><h3><a style="font-size: 15px; color: black;" href="../pages/registro.html" target="_blank">Registrate</a>
+                    | <a style="font-size: 15px; color: black;"href="../pages/ingresar.html">Iniciar sesión</a></h3>               
+                    </div>
+                </div>
+    </header>
+    <main>
+        <section class="form-register">
+            <h4>DONAR</h4>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellido">
+            <input class="controls" type="number" name="numeros" id="numeros" placeholder="Monto a donar $">
+            <div class="form-control-donar">
+                <select name="country" id="country" class="form-select">
+                    <option value="">Método de pago</option>
+                    <option value="AR">Débito</option>
+                    <option value="BO">Crédito</option>
+                    <option value="BR">Mercado Pago</option>
+                    <option value="CH">Transferencia</option>
+                    <option value="CO">Otro</option>    
+                </select>
+            </div>
+            <div class="form-terms">
+                <div class="terms">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">Acepto términos y condiciones</label>
+                </div>
+                <button type="submit">DONAR</button>     
+            </div>
+        </section>
+
+    </main>
+
+</body>
+           <!-- Boton de Wpp linkeado-->
+
+           <div class="wppLogo">
+            <a href="https://api.whatsapp.com/send?phone=5491168318897" target="_blank">
+                <img class="wppLogo" src="../imagenes/whatsapp.png"  alt="imagen del logo de whatsapp" >
+            </a>
+            </div>
+<footer class="pie_donar">
+               
+    <div class="redes">   
+          <h2>REDES Y CONTACTOS</h2>
+         <a class="links" href="https://www.twitter.com"target="_blank" >
+             <img class="link_logo" src="../imagenes/twitter.png" alt="imagen del logo de twitter" >
+         </a>
+
+         <a class="links" href="https://www.Facebook.com"target="_blank" >
+             <img class="link_logo" src="../imagenes/facebook.png" alt="imagen del logo de facebook" >
+         </a>
+         <a class="links" href="https://www.instagram.com"target="_blank" >
+             <img class="link_logo" src="../imagenes/instagram.png" alt="imagen del logo de instagram" >
+         </a>
+         <a class="links" href="https://www.youtube.com/"target="_blank" >
+             <img class="link_logo" src="../imagenes/youutube.png" alt="imagen del logo de WhatsApp" >
+         </a>
+         <a class="links" href="https://web.whatsapp.com/"target="_blank" >
+             <img class="link_logo" src="../imagenes/whatsapp.png" alt="imagen del logo de WhatsApp" >
+         </a>
+         <a class="links" href=https://www.google.com/maps?ll=-32.958811,-60.633325&z=16&t=m&hl=es-419&gl=AR&mapclient=embed&q=Av.+Pellegrini+561+S2000+BTF+Santa+Fe" >
+             <img class="link_logo" src="../imagenes/maps.png" alt="imagen de como llegar" >
+         </a>            
+     </div>
+
+ <div class="suscribir">       
+     <form action="mailto:froy270@gmail.com" enctype="text/plain">
+        <h4 class="texto_suscribir">Para recibir información suscribite o dejanos tu correo así te contactamos.</h4>
+         <input type="text" placeholder="Enter your email">
+     </form>
+
+     <div>
+         <h3>¡SUSCRIBIRME!</h3><a href="suscribir"></a>
+     </div>
+ </div> 
+
+ <h6 class="derechos"> Todos los derechos reservados </h6>
+
+</footer>
+</html>
